@@ -13,7 +13,7 @@ public class operasi {
     public int hp,byr,p,jml,hasil;
     
     public int kembalian(){
-        int kembali;
+        int kembali;//untuk kembalian
         kembali=byr-(p*jml);
         hasil=kembali;
         return kembali;}
