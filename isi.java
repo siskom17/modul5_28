@@ -1,4 +1,4 @@
-/*
+M/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -22,13 +22,13 @@ public final class isi {
     }
     public void input(){
     Scanner h = new Scanner(System.in);
-    System.out.println("masukkan nomor pilihan smartphone xiaomi : ");
+    System.out.println("Masukkan nomor pilihan smartphone xiaomi : ");
     hp = h.nextInt();
     x.hp=this.hp;
-    System.out.println("masukkan jumlah smartphone xiaomi yang ingin anda beli : ");
+    System.out.println("Masukkan jumlah smartphone xiaomi yang ingin anda beli : ");
     jml = h.nextInt();
     x.jml=this.jml;
-    System.out.println("masukkan nilai uang pembayaran : ");
+    System.out.println("Masukkan nilai uang pembayaran : ");
     byr = h.nextInt();  
     x.byr=this.byr;
     }
